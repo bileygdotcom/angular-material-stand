@@ -1,0 +1,342 @@
+/* ===== DARK THEME PALETTE  ===== */
+
+html {
+  /* Базовые цвета */
+  --mat-app-background-color: #2a2a2a !important;
+  --mat-app-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-ripple-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+
+  /* Option */
+  --mat-option-selected-state-label-text-color: #d4b8ff !important;
+  --mat-option-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-option-hover-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 4%, transparent) !important;
+  --mat-option-focus-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-option-selected-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+
+  --mat-optgroup-label-text-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Card */
+  --mat-card-elevated-container-color: #2d2d2d !important;
+  --mat-card-outlined-container-color: #2d2d2d !important;
+  --mat-card-outlined-outline-color: rgba(255, 255, 255, 0.12) !important;
+  --mat-card-subtitle-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-card-filled-container-color: #2d2d2d !important;
+  --mat-card-elevated-container-elevation: 0px 2px 4px -1px rgba(0, 0, 0, 0.5), 0px 4px 5px 0px rgba(0, 0, 0, 0.35), 0px 1px 10px 0px rgba(0, 0, 0, 0.3) !important;
+  --mat-card-filled-container-elevation: 0px 0px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.18) !important;
+
+  /* Form-field*/
+  --mat-form-field-filled-container-color: #383838 !important;
+  --mat-form-field-filled-disabled-container-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 4%, transparent) !important;
+
+  /* Form field hover/focus state */
+  --mat-form-field-hover-state-layer-opacity: 0.06 !important;
+  --mat-form-field-focus-state-layer-opacity: 0.1 !important;
+  --mat-form-field-state-layer-color: white !important;
+
+  /* Focus label — светлый primary */
+  --mat-form-field-filled-focus-label-text-color: #d4b8ff !important;
+  --mat-form-field-outlined-focus-label-text-color: #d4b8ff !important;
+  
+  /* Focus indicator (линия под fill-инпутом) */
+  --mat-form-field-filled-focus-active-indicator-color: #d4b8ff !important;
+  
+  /* Focus outline (обводка outlined-инпута) */
+  --mat-form-field-outlined-focus-outline-color: #d4b8ff !important;
+  
+  /* Caret (курсор) */
+  --mat-form-field-filled-caret-color: #d4b8ff !important;
+  --mat-form-field-outlined-caret-color: #d4b8ff !important;
+
+
+  /* Tooltip */
+  --mat-tooltip-container-color: #424242 !important;
+  --mat-tooltip-supporting-text-color: white !important;
+
+  /* Toolbar */
+  --mat-toolbar-container-background-color: #2d2d2d !important;
+  --mat-toolbar-container-text-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Sidenav */
+  --mat-sidenav-container-divider-color: rgba(255, 255, 255, 0.12) !important;
+  --mat-sidenav-container-background-color: #3a3a3a !important;
+  --mat-sidenav-container-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-sidenav-content-background-color: #2d2d2d !important;
+  --mat-sidenav-content-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-sidenav-scrim-color: rgba(0, 0, 0, 0.8) !important;
+
+  /* Dialog */
+  --mat-dialog-container-color: #2d2d2d !important;
+  --mat-dialog-subhead-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-dialog-supporting-text-color: rgba(255, 255, 255, 0.6) !important;
+
+  /* Menu */
+  --mat-menu-item-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-menu-item-icon-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-menu-item-hover-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 4%, transparent) !important;
+  --mat-menu-item-focus-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-menu-container-color: #2d2d2d !important;
+  --mat-menu-divider-color: rgba(255, 255, 255, 0.12) !important;
+
+  /* List */
+  --mat-list-list-item-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-list-list-item-supporting-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-list-list-item-leading-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-list-list-item-trailing-supporting-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-list-list-item-trailing-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-list-list-item-selected-trailing-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-list-list-item-disabled-label-text-color: rgba(255, 255, 255, 0.38) !important;
+  --mat-list-list-item-disabled-leading-icon-color: rgba(255, 255, 255, 0.38) !important;
+  --mat-list-list-item-disabled-trailing-icon-color: rgba(255, 255, 255, 0.38) !important;
+  --mat-list-list-item-hover-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-list-list-item-hover-leading-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-list-list-item-hover-state-layer-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-list-list-item-hover-trailing-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-list-list-item-focus-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-list-list-item-focus-state-layer-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Table */
+  --mat-table-background-color: #2d2d2d !important;
+  --mat-table-header-headline-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-table-row-item-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-table-row-item-outline-color: rgba(255, 255, 255, 0.12) !important;
+
+  /* Snackbar */
+  --mat-snack-bar-container-color: #424242 !important;
+  --mat-snack-bar-supporting-text-color: white !important;
+  --mat-snack-bar-button-color: #d4b8ff !important;
+
+  /* Bottom Sheet */
+  --mat-bottom-sheet-container-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-bottom-sheet-container-background-color: #2d2d2d !important;
+
+  /* Autocomplete */
+  --mat-autocomplete-background-color: #2d2d2d !important;
+
+  /* Select */
+  --mat-select-panel-background-color: #2d2d2d !important;
+  --mat-select-enabled-trigger-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-select-disabled-trigger-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-select-placeholder-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-select-enabled-arrow-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-select-disabled-arrow-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-select-focused-arrow-color: #d4b8ff !important;
+  --mat-select-invalid-arrow-color: #f44336 !important;
+
+  /* Divider */
+  --mat-divider-color: rgba(255, 255, 255, 0.12) !important;
+
+  /* Expansion */
+  --mat-expansion-container-background-color: #2d2d2d !important;
+  --mat-expansion-container-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-expansion-actions-divider-color: rgba(255, 255, 255, 0.12) !important;
+  --mat-expansion-header-hover-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 4%, transparent) !important;
+  --mat-expansion-header-focus-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-expansion-header-disabled-state-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-expansion-header-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-expansion-header-description-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-expansion-header-indicator-color: rgba(255, 255, 255, 0.6) !important;
+
+  /* Stepper */
+  --mat-stepper-container-color: #2d2d2d !important;
+  --mat-stepper-line-color: rgba(255, 255, 255, 0.12) !important;
+  --mat-stepper-header-hover-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 4%, transparent) !important;
+  --mat-stepper-header-focus-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-stepper-header-label-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-stepper-header-optional-label-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-stepper-header-selected-state-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-stepper-header-error-state-label-text-color: #f44336 !important;
+  --mat-stepper-header-icon-background-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-stepper-header-error-state-icon-foreground-color: #f44336 !important;
+  --mat-stepper-header-error-state-icon-background-color: transparent !important;
+
+  /* Tree */
+  --mat-tree-container-background-color: #2d2d2d !important;
+  --mat-tree-node-text-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Timepicker */
+  --mat-timepicker-container-background-color: #2d2d2d !important;
+
+  /* Datepicker */
+  --mat-datepicker-calendar-container-background-color: #2d2d2d !important;
+  --mat-datepicker-calendar-container-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-datepicker-calendar-body-label-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-datepicker-calendar-period-button-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-datepicker-calendar-period-button-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-datepicker-calendar-navigation-button-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-datepicker-calendar-header-divider-color: rgba(255, 255, 255, 0.12) !important;
+  --mat-datepicker-calendar-header-text-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-datepicker-calendar-date-today-outline-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-datepicker-calendar-date-today-disabled-state-outline-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-datepicker-calendar-date-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-datepicker-calendar-date-disabled-state-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-datepicker-calendar-date-preview-state-outline-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-datepicker-toggle-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-datepicker-range-input-separator-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-datepicker-range-input-disabled-state-separator-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-datepicker-range-input-disabled-state-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+
+  /* Button toggle */
+  --mat-button-toggle-background-color: #2d2d2d !important;
+  --mat-button-toggle-disabled-selected-state-background-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-button-toggle-disabled-selected-state-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-button-toggle-disabled-state-background-color: #2d2d2d !important;
+  --mat-button-toggle-disabled-state-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-button-toggle-divider-color: rgba(255, 255, 255, 0.12) !important;
+  --mat-button-toggle-legacy-disabled-selected-state-background-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-button-toggle-legacy-disabled-state-background-color: #2d2d2d !important;
+  --mat-button-toggle-legacy-disabled-state-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-button-toggle-legacy-selected-state-background-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-button-toggle-legacy-selected-state-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-button-toggle-legacy-state-layer-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-button-toggle-legacy-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-button-toggle-selected-state-background-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-button-toggle-selected-state-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-button-toggle-state-layer-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-button-toggle-text-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Elevated button — светлее фона */
+  --mat-button-protected-container-color: #3a3a3a;
+  --mat-button-protected-label-text-color: rgba(255, 255, 255, 0.87);
+  --mat-button-protected-disabled-container-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent);
+  --mat-button-protected-disabled-label-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent);
+
+  /* Тени для Elevated */
+  --mat-button-protected-container-elevation-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.4), 0px 2px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+  --mat-button-protected-hover-container-elevation-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.5), 0px 4px 5px 0px rgba(0, 0, 0, 0.35), 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  --mat-button-protected-focus-container-elevation-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.5), 0px 4px 5px 0px rgba(0, 0, 0, 0.35), 0px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  --mat-button-protected-pressed-container-elevation-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.5), 0px 8px 10px 1px rgba(0, 0, 0, 0.4), 0px 3px 14px 2px rgba(0, 0, 0, 0.3);
+
+  /* Filled button */
+  --mat-button-filled-container-color: #86609B;
+  --mat-button-filled-label-text-color: white;
+  --mat-button-filled-ripple-color: color-mix(in srgb, white 12%, transparent);
+  --mat-button-filled-state-layer-color: white;
+
+  /* Tonal button */
+  --mat-button-tonal-container-color: #86609B;
+  --mat-button-tonal-label-text-color: white;
+  --mat-button-tonal-ripple-color: color-mix(in srgb, white 12%, transparent);
+  --mat-button-tonal-state-layer-color: white;
+
+  /* FAB */
+  --mat-fab-container-color: #86609B;
+  --mat-fab-foreground-color: white;
+  --mat-fab-small-container-color: #86609B;
+  --mat-fab-small-foreground-color: white;
+  
+  /* Sort */
+  --mat-sort-arrow-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Badge */
+  --mat-badge-background-color: #d4b8ff !important;
+  --mat-badge-text-color: #1a1a1a !important;
+  --mat-badge-disabled-state-background-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 12%, transparent) !important;
+  --mat-badge-disabled-state-text-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+
+  /* Icon */
+  --mat-icon-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Paginator */
+  --mat-paginator-container-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-paginator-container-background-color: #2d2d2d !important;
+  --mat-paginator-enabled-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-paginator-disabled-icon-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+
+  /* Progress bar */
+  --mat-progress-bar-track-color: rgba(255, 255, 255, 0.12) !important;
+
+  /* Slider */
+  --mat-slider-label-container-color: #2d2d2d !important;
+  --mat-slider-label-label-text-color: rgba(255, 255, 255, 0.87) !important;
+
+  /* Slide toggle */
+  --mat-slide-toggle-label-text-color: rgba(255, 255, 255, 0.87) !important;
+  --mat-slide-toggle-handle-surface-color: #424242 !important;
+  --mat-slide-toggle-unselected-icon-color: #2d2d2d !important;
+  --mat-slide-toggle-disabled-unselected-icon-color: #2d2d2d !important;
+
+  /* Pseudo checkbox */
+  --mat-pseudo-checkbox-full-unselected-icon-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-pseudo-checkbox-full-disabled-unselected-icon-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+  --mat-pseudo-checkbox-full-disabled-selected-icon-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+
+  /* State layer colors — общие для всех кнопок */
+  --mat-button-filled-state-layer-color: white !important;
+  --mat-button-outlined-state-layer-color: white !important;
+  --mat-button-protected-state-layer-color: white !important;
+  --mat-button-text-state-layer-color: white !important;
+  --mat-button-tonal-state-layer-color: white !important;
+  --mat-icon-button-state-layer-color: white !important;
+  --mat-fab-state-layer-color: white !important;
+  --mat-fab-small-state-layer-color: white !important;
+
+  /* Hover */
+  --mat-button-filled-hover-state-layer-opacity: 0.12 !important;
+  --mat-button-outlined-hover-state-layer-opacity: 0.12 !important;
+  --mat-button-text-hover-state-layer-opacity: 0.12 !important;
+  --mat-button-protected-hover-state-layer-opacity: 0.12 !important;
+  --mat-button-tonal-hover-state-layer-opacity: 0.12 !important;
+  --mat-icon-button-hover-state-layer-opacity: 0.12 !important;
+  --mat-fab-hover-state-layer-opacity: 0.12 !important;
+  --mat-fab-small-hover-state-layer-opacity: 0.12 !important;
+
+  /* Focus */
+  --mat-button-filled-focus-state-layer-opacity: 0.06 !important;
+  --mat-button-outlined-focus-state-layer-opacity: 0.06 !important;
+  --mat-button-text-focus-state-layer-opacity: 0.06 !important;
+  --mat-button-protected-focus-state-layer-opacity: 0.06 !important;
+  --mat-button-tonal-focus-state-layer-opacity: 0.06 !important;
+  --mat-icon-button-focus-state-layer-opacity: 0.06 !important;
+  --mat-fab-focus-state-layer-opacity: 0.06 !important;
+  --mat-fab-small-focus-state-layer-opacity: 0.06 !important;
+
+  /* Pressed */
+  --mat-button-filled-pressed-state-layer-opacity: 0.08 !important;
+  --mat-button-outlined-pressed-state-layer-opacity: 0.08 !important;
+  --mat-button-text-pressed-state-layer-opacity: 0.08 !important;
+  --mat-button-protected-pressed-state-layer-opacity: 0.08 !important;
+  --mat-button-tonal-pressed-state-layer-opacity: 0.08 !important;
+  --mat-icon-button-pressed-state-layer-opacity: 0.08 !important;
+  --mat-fab-pressed-state-layer-opacity: 0.08 !important;
+  --mat-fab-small-pressed-state-layer-opacity: 0.08 !important;
+
+  /* Sidenav list */
+  --mat-list-list-item-hover-state-layer-color: white !important;
+  --mat-list-list-item-focus-state-layer-color: white !important;
+}
+
+/* Primary акцент в тёмной теме */
+.mat-primary {
+  --mat-pseudo-checkbox-full-selected-icon-color: #d4b8ff !important;
+  --mat-pseudo-checkbox-full-selected-checkmark-color: #1a1a1a !important;
+  --mat-pseudo-checkbox-minimal-selected-checkmark-color: #d4b8ff !important;
+  --mat-pseudo-checkbox-minimal-disabled-selected-checkmark-color: color-mix(in srgb, rgba(255, 255, 255, 0.87) 38%, transparent) !important;
+}
+
+.mat-icon.mat-primary {
+  --mat-icon-color: #d4b8ff !important;
+}
+
+.mat-toolbar.mat-primary {
+  --mat-toolbar-container-background-color: #86609B !important;
+  --mat-toolbar-container-text-color: white !important;
+}
+
+.mat-badge-accent {
+  --mat-badge-background-color: #ff4081 !important;
+  --mat-badge-text-color: white !important;
+}
+
+.mat-badge-warn {
+  --mat-badge-background-color: #f44336 !important;
+  --mat-badge-text-color: white !important;
+}
+
+.mat-accent {
+  --mat-progress-spinner-active-indicator-color: #ff4081 !important;
+}
+
+.mat-warn {
+  --mat-progress-spinner-active-indicator-color: #f44336 !important;
+}
+

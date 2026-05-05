@@ -1,0 +1,7 @@
+/* ===== CHECKBOX (structure only) ===== */
+
+html {
+  --mat-checkbox-touch-target-size: 48px;
+  --mat-checkbox-touch-target-display: block;
+  --mat-checkbox-state-layer-size: 40px;
+}

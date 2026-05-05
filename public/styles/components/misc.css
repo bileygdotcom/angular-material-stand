@@ -1,0 +1,23 @@
+/* ===== MISC COMPONENTS (structure only) ===== */
+
+html {
+  --mat-autocomplete-container-shape: 4px;
+  --mat-bottom-sheet-container-shape: 4px;
+  --mat-button-toggle-shape: 4px;
+  --mat-button-toggle-legacy-shape: 2px;
+  --mat-button-toggle-height: 48px;
+  --mat-divider-width: 1px;
+  --mat-expansion-container-shape: 4px;
+  --mat-expansion-legacy-header-indicator-display: inline-block;
+  --mat-expansion-header-indicator-display: none;
+  --mat-expansion-header-collapsed-state-height: 48px;
+  --mat-expansion-header-expanded-state-height: 64px;
+  --mat-timepicker-container-shape: 4px;
+  --mat-tree-node-min-height: 48px;
+  --mat-paginator-page-size-select-width: 84px;
+  --mat-paginator-page-size-select-touch-target-height: 48px;
+  --mat-paginator-container-size: 56px;
+  --mat-paginator-form-field-container-height: 40px;
+  --mat-paginator-form-field-container-vertical-padding: 8px;
+  --mat-paginator-touch-target-display: block;
+}

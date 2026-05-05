@@ -1,0 +1,25 @@
+/* ===== SLIDER (structure only) ===== */
+
+html {
+  --mat-slider-active-track-height: 6px;
+  --mat-slider-active-track-shape: 9999px;
+  --mat-slider-handle-height: 20px;
+  --mat-slider-handle-shape: 50%;
+  --mat-slider-handle-width: 20px;
+  --mat-slider-inactive-track-height: 4px;
+  --mat-slider-inactive-track-shape: 9999px;
+  --mat-slider-value-indicator-border-radius: 4px;
+  --mat-slider-value-indicator-caret-display: block;
+  --mat-slider-value-indicator-container-transform: translateX(-50%);
+  --mat-slider-value-indicator-height: 32px;
+  --mat-slider-value-indicator-padding: 0 12px;
+  --mat-slider-value-indicator-text-transform: none;
+  --mat-slider-value-indicator-width: auto;
+  --mat-slider-with-overlap-handle-outline-width: 1px;
+  --mat-slider-with-tick-marks-active-container-opacity: 0.6;
+  --mat-slider-with-tick-marks-container-shape: 50%;
+  --mat-slider-with-tick-marks-container-size: 2px;
+  --mat-slider-with-tick-marks-inactive-container-opacity: 0.6;
+  --mat-slider-value-indicator-transform-origin: bottom;
+  --mat-slider-value-indicator-opacity: 1;
+}

@@ -1,0 +1,9 @@
+/* ===== PROGRESS (structure only) ===== */
+
+html {
+  --mat-progress-bar-active-indicator-height: 4px;
+  --mat-progress-bar-track-height: 4px;
+  --mat-progress-bar-track-shape: 0;
+  --mat-progress-spinner-active-indicator-width: 4px;
+  --mat-progress-spinner-size: 48px;
+}

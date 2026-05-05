@@ -1,0 +1,62 @@
+.example-card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+/* Убираем только margin-bottom между инпутами */
+mat-card .mat-mdc-form-field {
+  margin-bottom: 0;
+}
+
+/* ХЕАДЕР */
+/*Зазор между карточкой и хеадером*/
+mat-card-content {
+  padding-top: 16px;
+}
+/* Центровка в хеадере*/
+.mat-mdc-card-header {
+  align-items: center;
+}
+/* Выравниваем текст хеадера по вертикали*/
+.mat-mdc-card-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+/* Настраиваем иконку в шапке карточки*/
+.mat-mdc-card-avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0;
+}
+/* Убираем зазор в хедере карточки*/
+.mat-mdc-card-header {
+  padding-top: 0;
+  padding-right: 0;
+}
+/* Убираем зазор между аватаром и текстом*/
+
+/* Спейсер для хеадера*/
+.spacer {
+  flex: 1 1 auto;
+}
+
+/* Нижние кнопки */
+
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 16px;
+}
+
+.mat-mdc-card-title {
+  padding: 0 !important;
+}

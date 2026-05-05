@@ -1,0 +1,30 @@
+<h2>Divider</h2>
+
+<section>
+  <h3>Basic</h3>
+  <p>Item 1</p>
+  <mat-divider></mat-divider>
+  <p>Item 2</p>
+  <mat-divider></mat-divider>
+  <p>Item 3</p>
+</section>
+
+<section>
+  <h3>Inset</h3>
+  <mat-list>
+    <mat-list-item>Item 1</mat-list-item>
+    <mat-divider [inset]="true"></mat-divider>
+    <mat-list-item>Item 2</mat-list-item>
+    <mat-divider [inset]="true"></mat-divider>
+    <mat-list-item>Item 3</mat-list-item>
+  </mat-list>
+</section>
+
+<section>
+  <h3>Vertical</h3>
+  <div style="display: flex; align-items: center; gap: 16px;">
+    <span>Left</span>
+    <mat-divider [vertical]="true"></mat-divider>
+    <span>Right</span>
+  </div>
+</section>

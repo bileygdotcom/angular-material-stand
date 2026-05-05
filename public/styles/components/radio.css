@@ -1,0 +1,7 @@
+/* ===== RADIO (structure only) ===== */
+
+html {
+  --mat-radio-state-layer-size: 40px;
+  --mat-radio-touch-target-size: 48px;
+  --mat-radio-touch-target-display: block;
+}

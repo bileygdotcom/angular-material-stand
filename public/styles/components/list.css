@@ -1,0 +1,47 @@
+/* ===== LIST (structure only) ===== */
+
+html {
+  --mat-list-active-indicator-shape: 4px;
+  --mat-list-list-item-container-shape: 0;
+  --mat-list-list-item-leading-avatar-shape: 50%;
+  --mat-list-list-item-leading-icon-size: 24px;
+  --mat-list-list-item-leading-avatar-size: 40px;
+  --mat-list-list-item-trailing-icon-size: 24px;
+  --mat-list-list-item-disabled-state-layer-opacity: 0;
+  --mat-list-list-item-disabled-label-text-opacity: 0.38;
+  --mat-list-list-item-disabled-leading-icon-opacity: 0.38;
+  --mat-list-list-item-disabled-trailing-icon-opacity: 0.38;
+  --mat-list-list-item-hover-state-layer-opacity: 0.04;
+  --mat-list-list-item-focus-state-layer-opacity: 0.12;
+}
+
+html {
+  --mat-list-list-item-leading-icon-start-space: 16px;
+  --mat-list-list-item-leading-icon-end-space: 32px;
+  --mat-list-list-item-one-line-container-height: 48px;
+  --mat-list-list-item-two-line-container-height: 64px;
+  --mat-list-list-item-three-line-container-height: 88px;
+}
+
+.mdc-list-item__start,
+.mdc-list-item__end {
+  --mat-radio-state-layer-size: 40px;
+  --mat-radio-touch-target-display: block;
+}
+
+.mat-mdc-list-item.mdc-list-item--with-leading-avatar.mdc-list-item--with-one-line,
+.mat-mdc-list-item.mdc-list-item--with-leading-checkbox.mdc-list-item--with-one-line,
+.mat-mdc-list-item.mdc-list-item--with-leading-icon.mdc-list-item--with-one-line {
+  height: 56px;
+}
+.mat-mdc-list-item.mdc-list-item--with-leading-avatar.mdc-list-item--with-two-lines,
+.mat-mdc-list-item.mdc-list-item--with-leading-checkbox.mdc-list-item--with-two-lines,
+.mat-mdc-list-item.mdc-list-item--with-leading-icon.mdc-list-item--with-two-lines {
+  height: 72px;
+}
+
+.mat-mdc-list-base .mdc-list-item--disabled .mdc-list-item__start,
+.mat-mdc-list-base .mdc-list-item--disabled .mdc-list-item__content,
+.mat-mdc-list-base .mdc-list-item--disabled .mdc-list-item__end {
+  opacity: 1;
+}

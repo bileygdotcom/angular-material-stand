@@ -1,0 +1,13 @@
+/* ===== MENU (structure only) ===== */
+
+html {
+  --mat-menu-container-shape: 4px;
+  --mat-menu-divider-bottom-spacing: 0;
+  --mat-menu-divider-top-spacing: 0;
+  --mat-menu-item-spacing: 16px;
+  --mat-menu-item-icon-size: 24px;
+  --mat-menu-item-leading-spacing: 16px;
+  --mat-menu-item-trailing-spacing: 16px;
+  --mat-menu-item-with-icon-leading-spacing: 16px;
+  --mat-menu-item-with-icon-trailing-spacing: 16px;
+}

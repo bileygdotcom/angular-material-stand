@@ -1,0 +1,68 @@
+/* ===== BUTTONS (structure only) ===== */
+
+html {
+  --mat-button-filled-horizontal-padding: 16px;
+  --mat-button-filled-icon-offset: -4px;
+  --mat-button-filled-icon-spacing: 8px;
+  --mat-button-filled-touch-target-size: 48px;
+  --mat-button-outlined-horizontal-padding: 15px;
+  --mat-button-outlined-icon-offset: -4px;
+  --mat-button-outlined-icon-spacing: 8px;
+  --mat-button-outlined-keep-touch-target: false;
+  --mat-button-outlined-outline-width: 1px;
+  --mat-button-outlined-touch-target-size: 48px;
+  --mat-button-protected-horizontal-padding: 16px;
+  --mat-button-protected-icon-offset: -4px;
+  --mat-button-protected-icon-spacing: 8px;
+  --mat-button-protected-touch-target-size: 48px;
+  --mat-button-text-horizontal-padding: 8px;
+  --mat-button-text-icon-offset: 0;
+  --mat-button-text-icon-spacing: 8px;
+  --mat-button-text-with-icon-horizontal-padding: 8px;
+  --mat-button-text-touch-target-size: 48px;
+  --mat-button-tonal-horizontal-padding: 16px;
+  --mat-button-tonal-icon-offset: -4px;
+  --mat-button-tonal-icon-spacing: 8px;
+  --mat-button-tonal-touch-target-size: 48px;
+}
+
+html {
+  --mat-button-filled-container-height: 36px;
+  --mat-button-filled-touch-target-display: block;
+  --mat-button-outlined-container-height: 36px;
+  --mat-button-outlined-touch-target-display: block;
+  --mat-button-protected-container-height: 36px;
+  --mat-button-protected-touch-target-display: block;
+  --mat-button-text-container-height: 36px;
+  --mat-button-text-touch-target-display: block;
+  --mat-button-tonal-container-height: 36px;
+  --mat-button-tonal-touch-target-display: block;
+}
+
+/* Icon button */
+html {
+  --mat-icon-button-icon-size: 24px;
+  --mat-icon-button-container-shape: 50%;
+  --mat-icon-button-touch-target-size: 48px;
+  --mat-icon-button-touch-target-display: block;
+}
+
+.mat-mdc-icon-button.mat-mdc-button-base {
+  --mdc-icon-button-state-layer-size: 48px;
+  --mat-icon-button-state-layer-size: 48px;
+  width: var(--mat-icon-button-state-layer-size);
+  height: var(--mat-icon-button-state-layer-size);
+  padding: 12px;
+}
+
+/* FAB */
+html {
+  --mat-fab-container-shape: 50%;
+  --mat-fab-touch-target-size: 48px;
+  --mat-fab-extended-container-height: 48px;
+  --mat-fab-extended-container-shape: 24px;
+  --mat-fab-small-container-shape: 50%;
+  --mat-fab-small-touch-target-size: 48px;
+  --mat-fab-small-touch-target-display: block;
+  --mat-fab-touch-target-display: block;
+}

@@ -1,0 +1,39 @@
+/* ===== SLIDE TOGGLE (structure only) ===== */
+
+html {
+  --mat-slide-toggle-disabled-handle-opacity: 0.38;
+  --mat-slide-toggle-disabled-selected-handle-opacity: 0.38;
+  --mat-slide-toggle-disabled-selected-icon-opacity: 0.38;
+  --mat-slide-toggle-disabled-track-opacity: 0.12;
+  --mat-slide-toggle-disabled-unselected-handle-opacity: 0.38;
+  --mat-slide-toggle-disabled-unselected-icon-opacity: 0.38;
+  --mat-slide-toggle-disabled-unselected-track-outline-color: transparent;
+  --mat-slide-toggle-disabled-unselected-track-outline-width: 1px;
+  --mat-slide-toggle-handle-height: 20px;
+  --mat-slide-toggle-handle-shape: 10px;
+  --mat-slide-toggle-handle-width: 20px;
+  --mat-slide-toggle-hidden-track-opacity: 1;
+  --mat-slide-toggle-pressed-handle-size: 20px;
+  --mat-slide-toggle-selected-handle-horizontal-margin: 0;
+  --mat-slide-toggle-selected-handle-size: 20px;
+  --mat-slide-toggle-selected-icon-size: 18px;
+  --mat-slide-toggle-selected-pressed-handle-horizontal-margin: 0;
+  --mat-slide-toggle-selected-track-outline-color: transparent;
+  --mat-slide-toggle-selected-track-outline-width: 1px;
+  --mat-slide-toggle-selected-with-icon-handle-horizontal-margin: 0;
+  --mat-slide-toggle-track-height: 14px;
+  --mat-slide-toggle-track-outline-color: transparent;
+  --mat-slide-toggle-track-outline-width: 1px;
+  --mat-slide-toggle-track-shape: 7px;
+  --mat-slide-toggle-track-width: 36px;
+  --mat-slide-toggle-unselected-handle-horizontal-margin: 0;
+  --mat-slide-toggle-unselected-handle-size: 20px;
+  --mat-slide-toggle-unselected-icon-size: 18px;
+  --mat-slide-toggle-unselected-pressed-handle-horizontal-margin: 0;
+  --mat-slide-toggle-unselected-with-icon-handle-horizontal-margin: 0;
+  --mat-slide-toggle-visible-track-opacity: 1;
+  --mat-slide-toggle-with-icon-handle-size: 20px;
+  --mat-slide-toggle-touch-target-size: 48px;
+  --mat-slide-toggle-state-layer-size: 40px;
+  --mat-slide-toggle-touch-target-display: block;
+}

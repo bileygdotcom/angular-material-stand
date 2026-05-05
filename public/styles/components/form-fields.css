@@ -1,0 +1,22 @@
+/* ===== FORM FIELDS (structure only) ===== */
+
+html {
+  --mat-form-field-filled-active-indicator-height: 1px;
+  --mat-form-field-filled-focus-active-indicator-height: 2px;
+  --mat-form-field-filled-container-shape: 4px;
+  --mat-form-field-outlined-outline-width: 1px;
+  --mat-form-field-outlined-focus-outline-width: 2px;
+  --mat-form-field-outlined-container-shape: 4px;
+}
+
+html {
+  --mat-form-field-container-height: 56px;
+  --mat-form-field-filled-label-display: block;
+  --mat-form-field-container-vertical-padding: 16px;
+  --mat-form-field-filled-with-label-container-padding-top: 24px;
+  --mat-form-field-filled-with-label-container-padding-bottom: 8px;
+}
+
+html {
+  --mat-select-arrow-transform: translateY(-8px);
+}

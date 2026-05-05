@@ -1,0 +1,83 @@
+/* ===== ЗАКРУГЛЕНИЯ (SHAPE) ===== */
+
+html {
+  --mat-card-elevated-container-shape: 4px;
+  --mat-card-outlined-container-shape: 4px;
+  --mat-card-filled-container-shape: 4px;
+  --mat-card-outlined-outline-width: 1px;
+
+  --mat-progress-bar-track-shape: 0;
+
+  --mat-tooltip-container-shape: 4px;
+
+  --mat-form-field-filled-container-shape: 4px;
+  --mat-form-field-outlined-container-shape: 4px;
+
+  --mat-autocomplete-container-shape: 4px;
+
+  --mat-dialog-container-shape: 4px;
+
+  --mat-menu-container-shape: 4px;
+
+  --mat-list-active-indicator-shape: 4px;
+  --mat-list-list-item-container-shape: 0;
+  --mat-list-list-item-leading-avatar-shape: 50%;
+
+  --mat-pseudo-checkbox-full-unselected-icon-shape: 2px;
+  --mat-pseudo-checkbox-full-selected-icon-shape: 2px;
+  --mat-pseudo-checkbox-minimal-unselected-icon-shape: 2px;
+  --mat-pseudo-checkbox-minimal-selected-icon-shape: 2px;
+
+  --mat-button-filled-container-shape: 4px;
+  --mat-button-outlined-container-shape: 4px;
+  --mat-button-protected-container-shape: 4px;
+  --mat-button-text-container-shape: 4px;
+  --mat-button-tonal-container-shape: 4px;
+
+  --mat-icon-button-container-shape: 50%;
+
+  --mat-fab-container-shape: 50%;
+  --mat-fab-extended-container-shape: 24px;
+  --mat-fab-small-container-shape: 50%;
+
+  --mat-snack-bar-container-shape: 4px;
+
+  --mat-badge-container-shape: 50%;
+
+  --mat-bottom-sheet-container-shape: 4px;
+
+  --mat-button-toggle-shape: 4px;
+  --mat-button-toggle-legacy-shape: 2px;
+
+  --mat-datepicker-calendar-container-shape: 4px;
+  --mat-datepicker-calendar-container-touch-shape: 4px;
+
+  --mat-divider-width: 1px;
+
+  --mat-expansion-container-shape: 4px;
+
+  --mat-sidenav-container-shape: 0;
+
+  --mat-timepicker-container-shape: 4px;
+
+  --mat-stepper-header-focus-state-layer-shape: 0;
+  --mat-stepper-header-hover-state-layer-shape: 0;
+
+  --mat-slide-toggle-handle-shape: 10px;
+  --mat-slide-toggle-track-shape: 7px;
+
+  --mat-slider-active-track-shape: 9999px;
+  --mat-slider-inactive-track-shape: 9999px;
+  --mat-slider-handle-shape: 50%;
+  --mat-slider-with-tick-marks-container-shape: 50%;
+
+  --mat-chip-container-shape-radius: 16px;
+  --mat-chip-with-avatar-avatar-shape-radius: 14px;
+
+  --mat-progress-spinner-active-indicator-shape: 50%;
+}
+
+/* Глобальные корректировки закруглений */
+.mat-mdc-button-base {
+  --mdc-shape-small: 8px;
+}

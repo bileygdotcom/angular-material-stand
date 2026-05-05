@@ -1,0 +1,17 @@
+/* ===== DATEPICKER (structure only) ===== */
+
+html {
+  --mat-datepicker-calendar-container-shape: 4px;
+  --mat-datepicker-calendar-container-touch-shape: 4px;
+}
+
+.mat-calendar-controls {
+  --mat-icon-button-touch-target-display: none;
+}
+.mat-calendar-controls .mat-mdc-icon-button.mat-mdc-button-base {
+  --mdc-icon-button-state-layer-size: 40px;
+  --mat-icon-button-state-layer-size: 40px;
+  width: var(--mat-icon-button-state-layer-size);
+  height: var(--mat-icon-button-state-layer-size);
+  padding: 8px;
+}

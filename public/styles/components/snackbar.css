@@ -1,0 +1,5 @@
+/* ===== SNACKBAR (structure only) ===== */
+
+html {
+  --mat-snack-bar-container-shape: 4px;
+}

@@ -1,0 +1,92 @@
+/*@import '@angular/material/prebuilt-themes/purple-green.css';*/ /*dark*/
+/*@import '@angular/material/prebuilt-themes/cyan-orange.css';*/ /*dark*/
+/*@import '@angular/material/prebuilt-themes/rose-red.css';*/ /*lite*/
+/*@import '@angular/material/prebuilt-themes/azure-blue.css';*/ /*lite*/
+/*@import '@angular/material/prebuilt-themes/deeppurple-amber.css';*/ /*lite*/
+/*@import '@angular/material/prebuilt-themes/pink-bluegrey.css';*/ /*lite*/
+/*@import '@angular/material/prebuilt-themes/indigo-pink.css';*/ /*lite ===basic===*/
+/*@import '@angular/material/prebuilt-themes/magenta-violet.css';*/ /*dark*/
+
+@import './custom-theme.css';
+
+/* Глобальные размеры шрифтов */
+html, body {
+  height: 100%;
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Основной текст — 14px */
+body,
+.mat-button-label-text-size,
+.mat-typography,
+.mdc-button,
+.mdc-list-item__primary-text,
+.mdc-text-field,
+.mat-mdc-floating-label,
+.mat-mdc-card-title,
+.mat-mdc-select-value-text,
+.mat-mdc-option {
+  font-size: 14px !important;
+}
+
+/* Второстепенный текст — 12px */
+.mat-mdc-checkbox label,
+.mat-body-2,
+.mat-caption,
+.mat-mdc-form-field-hint,
+.mat-mdc-card-subtitle,
+.mat-mdc-form-field-error {
+  font-size: 12px !important;
+}
+
+/* Закругления — Material 21 */
+.mat-mdc-card {
+  --mat-card-container-shape: 12px;
+  border-radius: 12px !important;
+  /* Тень для карточек */
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12) !important;
+  transition: box-shadow 0.3s ease;
+}
+
+.mdc-button,
+.mat-mdc-button,
+.mat-mdc-raised-button,
+.mat-mdc-outlined-button,
+.mat-mdc-unelevated-button {
+  --mdc-shape-small: 8px;
+  border-radius: 8px !important;
+}
+
+.mat-mdc-form-field {
+  --mat-form-field-container-shape: 8px;
+}
+
+.mdc-text-field--outlined,
+.mdc-text-field--filled {
+  border-radius: 8px !important;
+}
+
+.mat-mdc-dialog-container {
+  --mat-dialog-container-shape: 16px;
+  border-radius: 16px !important;
+}
+
+.mat-mdc-chip {
+  --mdc-chip-container-shape: 8px;
+  border-radius: 8px !important;
+}
+
+.mat-mdc-card-avatar {
+  height: 24px !important;
+  width: 24px !important;
+  border-radius: 50% !important;
+  flex-shrink: 0;
+  margin-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

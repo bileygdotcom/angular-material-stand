@@ -1,0 +1,21 @@
+mat-drawer-container {
+  height: calc(100vh - 64px);
+}
+
+mat-drawer {
+  width: 240px;
+  border-right: 1px solid #e0e0e0;
+}
+
+mat-drawer-content {
+  padding: 24px;
+}
+
+.active {
+  background-color: rgba(63, 81, 181, 0.12) !important;
+  color: #3f51b5 !important;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

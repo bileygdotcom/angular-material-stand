@@ -1,0 +1,13 @@
+/* ===== TABS (structure only) ===== */
+
+html {
+  --mat-tab-container-height: 48px;
+  --mat-tab-divider-color: transparent;
+  --mat-tab-divider-height: 0;
+  --mat-tab-active-indicator-height: 2px;
+  --mat-tab-active-indicator-shape: 0;
+}
+
+.mat-mdc-tab-header {
+  --mat-tab-container-height: 48px;
+}

@@ -1,0 +1,39 @@
+<mat-card class="example-card" appearance="raised">
+  <mat-card-header>
+    <div mat-card-avatar class="custom-avatar">
+        <mat-icon svgIcon="custom-folderProject"></mat-icon>
+    </div>
+    <mat-card-title>Проект</mat-card-title>
+    <!--mat-card-subtitle>Скорее всего уберу подпись</mat-card-subtitle-->
+    <span class="spacer"></span>
+    <button mat-icon-button aria-label="Menu icon">
+        <mat-icon>close_small</mat-icon>
+    </button>
+  </mat-card-header>
+
+  <mat-card-content>
+    <mat-form-field class="full-width">
+      <mat-label>Шифр</mat-label>
+      <input matInput placeholder="Введите шифр проекта">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>Наименование проекта*</mat-label>
+      <input matInput placeholder="Введите наименование проекта">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>Примечание</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>Подрядная организация</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button color="primary">Отличненько!</button>
+    <button matButton>Не, нафиг...</button>
+  </mat-card-actions>
+</mat-card>

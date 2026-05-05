@@ -1,0 +1,6 @@
+/* ===== TOOLTIP (structure only) ===== */
+
+html {
+  --mat-tooltip-container-shape: 4px;
+  --mat-tooltip-supporting-text-line-height: 16px;
+}

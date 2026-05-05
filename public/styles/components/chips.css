@@ -1,0 +1,29 @@
+/* ===== CHIPS (structure only) ===== */
+
+.mat-mdc-standard-chip {
+  --mat-chip-container-shape-radius: 16px;
+  --mat-chip-disabled-container-opacity: 0.4;
+  --mat-chip-disabled-outline-color: transparent;
+  --mat-chip-flat-selected-outline-width: 0;
+  --mat-chip-focus-outline-color: transparent;
+  --mat-chip-hover-state-layer-opacity: 0.04;
+  --mat-chip-outline-color: transparent;
+  --mat-chip-outline-width: 0;
+  --mat-chip-selected-hover-state-layer-opacity: 0.04;
+  --mat-chip-selected-trailing-action-state-layer-color: transparent;
+  --mat-chip-trailing-action-focus-opacity: 1;
+  --mat-chip-trailing-action-focus-state-layer-opacity: 0;
+  --mat-chip-trailing-action-hover-state-layer-opacity: 0;
+  --mat-chip-trailing-action-opacity: 0.54;
+  --mat-chip-trailing-action-state-layer-color: transparent;
+  --mat-chip-with-avatar-avatar-shape-radius: 14px;
+  --mat-chip-with-avatar-avatar-size: 28px;
+  --mat-chip-with-avatar-disabled-avatar-opacity: 1;
+  --mat-chip-with-icon-disabled-icon-opacity: 1;
+  --mat-chip-with-icon-icon-size: 18px;
+  --mat-chip-with-trailing-icon-disabled-trailing-icon-opacity: 1;
+}
+
+.mat-mdc-chip.mat-mdc-standard-chip {
+  --mat-chip-container-height: 32px;
+}

@@ -1,0 +1,50 @@
+/* ===== CARDS ===== */
+
+html {
+  --mat-card-elevated-container-shape: 4px;
+  --mat-card-outlined-container-shape: 4px;
+  --mat-card-filled-container-shape: 4px;
+  --mat-card-outlined-outline-width: 1px;
+}
+
+/* Центровка хедера */
+.mat-mdc-card-header {
+  align-items: center;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 16px !important;
+}
+
+/* Выравнивание текста хедера */
+.mat-mdc-card-header-text {
+  display: flex;
+  flex-direction: column !important;
+  /**justify-content: center !important;**/
+}
+
+/* Аватар в хедере */
+.mat-mdc-card-avatar {
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start;
+  margin-bottom: 0 !important;
+}
+
+/* Отступ контента */
+.mat-mdc-card-content {
+  padding-top: 16px;
+}
+
+/* Заголовок карточки */
+.mat-mdc-card-title {
+  padding: 0 !important;
+}
+
+/* Кнопки действий */
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  padding: 16px !important;
+  padding-top: 0 !important;
+}

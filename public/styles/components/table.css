@@ -1,0 +1,11 @@
+/* ===== TABLE (structure only) ===== */
+
+html {
+  --mat-table-row-item-outline-width: 1px;
+}
+
+html {
+  --mat-table-header-container-height: 56px;
+  --mat-table-footer-container-height: 52px;
+  --mat-table-row-item-container-height: 52px;
+}

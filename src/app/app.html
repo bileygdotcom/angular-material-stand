@@ -1,0 +1,41 @@
+
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Angular Material Test</span>
+  <span class="spacer"></span>
+  <button mat-icon-button (click)="toggleTheme()">
+    <mat-icon>{{ themeIcon }}</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-drawer-container>
+  <mat-drawer #drawer mode="side" opened>
+    <mat-nav-list>
+      <a mat-list-item routerLink="/buttons" routerLinkActive="active">
+        <mat-icon>outbound</mat-icon>
+        <span> Buttons</span>
+      </a>
+      <a mat-list-item routerLink="/checkbox" routerLinkActive="active">
+        <mat-icon>check_box</mat-icon>
+        <span> Checkbox</span>
+      </a>
+      <a mat-list-item routerLink="/divider" routerLinkActive="active">
+        <mat-icon>horizontal_rule</mat-icon>
+        <span> Divider</span>
+      </a>
+      <a mat-list-item routerLink="/inputs" routerLinkActive="active">
+        <mat-icon>input</mat-icon>
+        <span> Inputs</span>
+      </a>
+      <a mat-list-item routerLink="/card" routerLinkActive="active">
+        <mat-icon>credit_card</mat-icon>
+        <span> Card</span>
+      </a>
+    </mat-nav-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

@@ -1,0 +1,6 @@
+/* ===== TOOLBAR (structure only) ===== */
+
+html {
+  --mat-toolbar-standard-height: 64px;
+  --mat-toolbar-mobile-height: 56px;
+}
