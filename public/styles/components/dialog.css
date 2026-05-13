@@ -4,10 +4,44 @@ html {
   --mat-dialog-container-shape: 4px;
   --mat-dialog-container-max-width: 80vw;
   --mat-dialog-container-small-max-width: 80vw;
-  --mat-dialog-container-min-width: 0;
+  --mat-dialog-container-min-width: 100;
   --mat-dialog-actions-alignment: start;
-  --mat-dialog-actions-padding: 8px;
-  --mat-dialog-content-padding: 20px 24px;
-  --mat-dialog-with-actions-content-padding: 20px 24px;
-  --mat-dialog-headline-padding: 0 24px 9px;
+  --mat-dialog-actions-padding: 16px;
+  --mat-dialog-content-padding: 16px;
+  --mat-dialog-with-actions-content-padding: 16px;
+  --mat-dialog-headline-padding: 16px;
+}
+
+/* Диалог: шапка как у карточки */
+.dialog-title {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0 px !important;
+  padding: 8px 0 16px 16px !important;
+  margin: 0 !important;
+  font-size: var(--mat-card-title-text-size, 14px) !important;
+  font-weight: var(--mat-card-title-text-weight, 400) !important;
+  color: var(--mat-dialog-subhead-color, rgba(0, 0, 0, 0.87)) !important;
+}
+
+.dialog-avatar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  justify-content: flex-start !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background-color: rgba(134, 96, 155, 0.0) !important;
+  flex-shrink: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.dialog-avatar mat-icon {
+  color: #86609B;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,15 +1,57 @@
 import { Routes } from '@angular/router';
 import { ButtonsComponent } from './pages/buttons/buttons.component';
+import { ButtonToggleComponent } from './pages/button-toggle/button-toggle.component';
 import { CheckboxComponent } from './pages/checkbox/checkbox.component';
+import { ChipsComponent } from './pages/chips/chips.component';
 import { DividerComponent } from './pages/divider/divider.component';
 import { InputComponent } from './pages/inputs/inputs.component';
 import { CardComponent } from './pages/card/card.component';
+import { AutocompleteComponent } from './pages/autocomplete/autocomplete.component';
+import { BadgeComponent } from './pages/badge/badge.component';
+import { ListComponent } from './pages/list/list.component';
+import { LinesListComponent } from './pages/lines-list/lines-list.component';
+import { BottomSheetComponent } from './pages/bottom-sheet/bottom-sheet.component';
+import { DatepickerComponent } from './pages/datepicker/datepicker.component';
+import { DialogComponent } from './pages/dialog/dialog.component';
+import { ExpansionComponent } from './pages/expansion/expansion.component';
+import { FormfieldComponent } from './pages/form-field/form-field.component';
+import { GridlistComponent } from './pages/grid-list/grid-list.component';
+import { MenuComponent } from './pages/menu/menu.component';
+import { PaginatorComponent } from './pages/paginator/paginator.component';
+import { SlidetoggleComponent } from './pages/slide-toggle/slide-toggle.component';
+import { ProgressbarComponent } from './pages/progress-bar/progress-bar.component';
+import { RadiobuttonComponent } from './pages/radio-button/radio-button.component';
+import { SelectComponent } from './pages/select/select.component';
+import { ProgressspinnerComponent } from './pages/progress-spinner/progress-spinner.component';
+import { SidenavComponent } from './pages/sidenav/sidenav.component';
+import { SliderComponent } from './pages/slider/slider.component';
 
 export const routes: Routes = [
   { path: 'buttons', component: ButtonsComponent },
+  { path: 'button-toggle', component: ButtonToggleComponent },
   { path: 'checkbox', component: CheckboxComponent },
+  { path: 'chips', component: ChipsComponent },
   { path: 'divider', component: DividerComponent },
   { path: 'inputs', component: InputComponent },
   { path: 'card', component: CardComponent },
-  { path: '', redirectTo: 'buttons', pathMatch: 'full' },
+  { path: 'autocomplete', component: AutocompleteComponent },
+  { path: 'badge', component: BadgeComponent },
+  { path: 'list', component: ListComponent },
+  { path: 'lines-list', component: LinesListComponent },
+  { path: 'bottom-sheet', component: BottomSheetComponent },
+  { path: 'datepicker', component: DatepickerComponent },
+  { path: 'dialog', component: DialogComponent },
+  { path: 'expansion', component: ExpansionComponent },
+  { path: 'form-field', component: FormfieldComponent },
+  { path: 'grid-list', component: GridlistComponent },
+  { path: 'menu', component: MenuComponent },
+  { path: 'paginator', component: PaginatorComponent },
+  { path: 'slide-toggle', component: SlidetoggleComponent },
+  { path: 'progress-bar', component: ProgressbarComponent },
+  { path: 'radio-button', component: RadiobuttonComponent },
+  { path: 'progress-spinner', component: ProgressspinnerComponent },
+  { path: 'select', component: SelectComponent },
+  { path: 'sidenav', component: SidenavComponent },
+  { path: 'slider', component: SliderComponent },
+  { path: '', redirectTo: 'buttons', pathMatch: 'full' }, 
 ];

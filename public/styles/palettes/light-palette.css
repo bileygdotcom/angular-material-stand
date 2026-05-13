@@ -42,7 +42,12 @@ html {
   /* Dialog */
   --mat-dialog-container-color: white;
   --mat-dialog-subhead-color: rgba(0, 0, 0, 0.87);
-  --mat-dialog-supporting-text-color: rgba(0, 0, 0, 0.54);
+  --mat-dialog-supporting-text-color: rgba(0, 0, 0, 0.87);
+  --mat-dialog-container-elevation-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+  /* Dialog action buttons*/
+  --mat-dialog-actions-button-text-color: rgba(0, 0, 0, 0.87);
+  --mat-dialog-actions-button-hover-state-layer-color: rgba(0, 0, 0, 0.06);
+  --mat-dialog-actions-button-focus-state-layer-color: rgba(0, 0, 0, 0.12);
 
   /* Menu */
   --mat-menu-item-label-text-color: rgba(0, 0, 0, 0.87);
@@ -165,6 +170,8 @@ html {
   --mat-datepicker-range-input-separator-color: rgba(0, 0, 0, 0.87);
   --mat-datepicker-range-input-disabled-state-separator-color: color-mix(in srgb, rgba(0, 0, 0, 0.87) 38%, transparent);
   --mat-datepicker-range-input-disabled-state-text-color: color-mix(in srgb, rgba(0, 0, 0, 0.87) 38%, transparent);
+  --mat-datepicker-calendar-container-elevation-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 12px 0px rgba(0, 0, 0, 0.12);
+  --mat-datepicker-calendar-container-touch-elevation-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 12px 0px rgba(0, 0, 0, 0.12);
 
   /* Button toggle */
   --mat-button-toggle-background-color: white;
@@ -184,6 +191,9 @@ html {
   --mat-button-toggle-selected-state-text-color: rgba(0, 0, 0, 0.87);
   --mat-button-toggle-state-layer-color: rgba(0, 0, 0, 0.87);
   --mat-button-toggle-text-color: rgba(0, 0, 0, 0.87);
+  --mat-button-toggle-hover-state-layer-opacity: 0.06;
+  --mat-button-toggle-focus-state-layer-opacity: 0.12;
+  --mat-button-toggle-state-layer-color: rgba(0, 0, 0, 0.87);
 
   /* Sort */
   --mat-sort-arrow-color: rgba(0, 0, 0, 0.87);
@@ -235,10 +245,10 @@ html {
   --mat-slide-toggle-selected-focus-handle-color: #86609B;
   --mat-slide-toggle-selected-hover-handle-color: #86609B;
   --mat-slide-toggle-selected-pressed-handle-color: #86609B;
-  --mat-slide-toggle-selected-focus-track-color: #7986cb;
-  --mat-slide-toggle-selected-hover-track-color: #7986cb;
-  --mat-slide-toggle-selected-pressed-track-color: #7986cb;
-  --mat-slide-toggle-selected-track-color: #7986cb;
+  --mat-slide-toggle-selected-focus-track-color: #cab9d3;
+  --mat-slide-toggle-selected-hover-track-color: #cab9d3;
+  --mat-slide-toggle-selected-pressed-track-color: #cab9d3;
+  --mat-slide-toggle-selected-track-color: #cab9d3;
   --mat-slide-toggle-disabled-label-text-color: color-mix(in srgb, rgba(0, 0, 0, 0.87) 38%, transparent);
   --mat-slide-toggle-disabled-handle-elevation-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
   --mat-slide-toggle-disabled-selected-handle-color: rgba(0, 0, 0, 0.87);
@@ -261,6 +271,12 @@ html {
   --mat-slide-toggle-unselected-pressed-track-color: rgba(0, 0, 0, 0.12);
   --mat-slide-toggle-unselected-pressed-state-layer-color: rgba(0, 0, 0, 0.87);
   --mat-slide-toggle-unselected-track-color: rgba(0, 0, 0, 0.12);
+  --mat-slide-toggle-unselected-focus-state-layer-color: rgba(0, 0, 0, 0.12) !important;
+  --mat-slide-toggle-unselected-hover-state-layer-color: rgba(0, 0, 0, 0.06) !important;
+  --mat-slide-toggle-unselected-pressed-state-layer-color: rgba(0, 0, 0, 0.08) !important;
+  --mat-slide-toggle-selected-focus-state-layer-color: rgba(134, 96, 155, 0.2) !important;
+  --mat-slide-toggle-selected-hover-state-layer-color: rgba(134, 96, 155, 0.12) !important;
+  --mat-slide-toggle-selected-pressed-state-layer-color: rgba(134, 96, 155, 0.16) !important;
 
   /* Pseudo checkbox */
   --mat-pseudo-checkbox-full-selected-icon-color: #ff4081;
@@ -431,6 +447,31 @@ html {
   --mat-fab-small-state-layer-color: rgba(0, 0, 0, 0.87);
   --mat-fab-state-layer-color: rgba(0, 0, 0, 0.87);
 
+  /* Radio button — как slide-toggle (светлая тема) */
+  --mat-radio-selected-icon-color: #86609B;
+  --mat-radio-selected-hover-icon-color: #86609B;
+  --mat-radio-selected-focus-icon-color: #86609B;
+  --mat-radio-selected-pressed-icon-color: #86609B;
+  --mat-radio-checked-ripple-color: #86609B;
+  --mat-radio-selected-focus-state-layer-color: rgba(134, 96, 155, 0.12);
+  --mat-radio-selected-hover-state-layer-color: rgba(134, 96, 155, 0.04);
+  --mat-radio-selected-pressed-state-layer-color: rgba(134, 96, 155, 0.08);
+  
+  --mat-radio-unselected-icon-color: rgba(0, 0, 0, 0.54);
+  --mat-radio-unselected-hover-icon-color: rgba(0, 0, 0, 0.87);
+  --mat-radio-unselected-focus-icon-color: rgba(0, 0, 0, 0.87);
+  --mat-radio-unselected-pressed-icon-color: rgba(0, 0, 0, 0.87);
+  --mat-radio-ripple-color: rgba(0, 0, 0, 0.87);
+  --mat-radio-unselected-focus-state-layer-color: rgba(0, 0, 0, 0.12);
+  --mat-radio-unselected-hover-state-layer-color: rgba(0, 0, 0, 0.04);
+  --mat-radio-unselected-pressed-state-layer-color: rgba(0, 0, 0, 0.08);
+  
+  --mat-radio-label-text-color: rgba(0, 0, 0, 0.87);
+  --mat-radio-disabled-label-color: color-mix(in srgb, rgba(0, 0, 0, 0.87) 38%, transparent);
+  --mat-radio-disabled-selected-icon-color: rgba(0, 0, 0, 0.87);
+  --mat-radio-disabled-unselected-icon-color: rgba(0, 0, 0, 0.87);
+
+
   /* Chip colors */
   --mat-chip-disabled-label-text-color: rgba(0, 0, 0, 0.87);
   --mat-chip-elevated-container-color: color-mix(in srgb, rgba(0, 0, 0, 0.87) 12%, transparent);
@@ -448,6 +489,11 @@ html {
   --mat-chip-with-icon-selected-icon-color: rgba(0, 0, 0, 0.87);
   --mat-chip-with-trailing-icon-disabled-trailing-icon-color: rgba(0, 0, 0, 0.87);
   --mat-chip-with-trailing-icon-trailing-icon-color: rgba(0, 0, 0, 0.87);
+  /* Chip hover/focus state */
+  --mat-chip-hover-state-layer-opacity: 0.06;
+  --mat-chip-focus-state-layer-opacity: 0.12;
+  --mat-chip-hover-state-layer-color: rgba(0, 0, 0, 0.87);
+  --mat-chip-focus-state-layer-color: rgba(0, 0, 0, 0.87);
 }
 
 /* ===== ACCENT & PRIMARY OVERRIDES ===== */

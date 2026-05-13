@@ -2,8 +2,8 @@
 
 html {
   --mat-option-label-text-font: Roboto, sans-serif;
-  --mat-option-label-text-line-height: 24px;
-  --mat-option-label-text-size: 16px;
+  --mat-option-label-text-line-height: 20px;
+  --mat-option-label-text-size: 14px;
   --mat-option-label-text-tracking: 0.03125em;
   --mat-option-label-text-weight: 400;
 }
@@ -73,8 +73,8 @@ html {
   --mat-dialog-subhead-weight: 500;
   --mat-dialog-subhead-tracking: 0.0125em;
   --mat-dialog-supporting-text-font: Roboto, sans-serif;
-  --mat-dialog-supporting-text-line-height: 24px;
-  --mat-dialog-supporting-text-size: 16px;
+  --mat-dialog-supporting-text-line-height: 20px;
+  --mat-dialog-supporting-text-size: 14px;
   --mat-dialog-supporting-text-weight: 400;
   --mat-dialog-supporting-text-tracking: 0.03125em;
 }
@@ -129,12 +129,12 @@ html {
 html {
   --mat-list-list-item-label-text-font: Roboto, sans-serif;
   --mat-list-list-item-label-text-line-height: 24px;
-  --mat-list-list-item-label-text-size: 16px;
+  --mat-list-list-item-label-text-size: 14px;
   --mat-list-list-item-label-text-tracking: 0.03125em;
   --mat-list-list-item-label-text-weight: 400;
   --mat-list-list-item-supporting-text-font: Roboto, sans-serif;
   --mat-list-list-item-supporting-text-line-height: 20px;
-  --mat-list-list-item-supporting-text-size: 14px;
+  --mat-list-list-item-supporting-text-size: 12px;
   --mat-list-list-item-supporting-text-tracking: 0.0178571429em;
   --mat-list-list-item-supporting-text-weight: 400;
   --mat-list-list-item-trailing-supporting-text-font: Roboto, sans-serif;
@@ -256,12 +256,12 @@ html {
 html {
   --mat-button-toggle-label-text-font: Roboto, sans-serif;
   --mat-button-toggle-label-text-line-height: 24px;
-  --mat-button-toggle-label-text-size: 16px;
+  --mat-button-toggle-label-text-size: 14px;
   --mat-button-toggle-label-text-tracking: 0.03125em;
   --mat-button-toggle-label-text-weight: 400;
   --mat-button-toggle-legacy-label-text-font: Roboto, sans-serif;
   --mat-button-toggle-legacy-label-text-line-height: 24px;
-  --mat-button-toggle-legacy-label-text-size: 16px;
+  --mat-button-toggle-legacy-label-text-size: 14px;
   --mat-button-toggle-legacy-label-text-tracking: 0.03125em;
   --mat-button-toggle-legacy-label-text-weight: 400;
 }

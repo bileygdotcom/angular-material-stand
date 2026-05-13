@@ -11,10 +11,10 @@ mat-drawer-content {
   padding: 24px;
 }
 
-.active {
+/*.active {
   background-color: rgba(63, 81, 181, 0.12) !important;
   color: #3f51b5 !important;
-}
+}*/
 
 .spacer {
   flex: 1 1 auto;
