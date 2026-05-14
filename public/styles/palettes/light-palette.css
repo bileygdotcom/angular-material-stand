@@ -88,7 +88,7 @@ html {
   /* Snackbar */
   --mat-snack-bar-container-color: #424242;
   --mat-snack-bar-supporting-text-color: white;
-  --mat-snack-bar-button-color: #7986cb;
+  --mat-snack-bar-button-color: #d4b8ff;
 
   /* Bottom Sheet */
   --mat-bottom-sheet-container-text-color: rgba(0, 0, 0, 0.87);
@@ -131,6 +131,11 @@ html {
   --mat-stepper-header-selected-state-label-text-color: rgba(0, 0, 0, 0.87);
   --mat-stepper-header-error-state-label-text-color: #f44336;
   --mat-stepper-header-icon-background-color: rgba(0, 0, 0, 0.54);
+  --mat-stepper-header-icon-foreground-color: whitesmoke;
+  --mat-stepper-header-selected-state-icon-background-color: #86609B;
+  --mat-stepper-header-selected-state-icon-foreground-color: white;
+  --mat-stepper-header-edit-state-icon-background-color: #86609B;
+  --mat-stepper-header-edit-state-icon-foreground-color: white;
   --mat-stepper-header-error-state-icon-foreground-color: #f44336;
   --mat-stepper-header-error-state-icon-background-color: transparent;
 
@@ -663,4 +668,10 @@ html {
 .mat-mdc-list-base .mdc-list-item--selected .mdc-list-item__start,
 .mat-mdc-list-base .mdc-list-item--activated .mdc-list-item__start {
   color: #86609B;
+}
+
+/* Expandable Table Select and hover*/
+html {
+  --table-row-hover-background: whitesmoke;
+  --table-row-active-background: #efefef;
 }

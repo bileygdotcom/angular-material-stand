@@ -172,6 +172,11 @@ html {
   --mat-stepper-header-selected-state-label-text-color: rgba(255, 255, 255, 0.87) !important;
   --mat-stepper-header-error-state-label-text-color: #f44336 !important;
   --mat-stepper-header-icon-background-color: rgba(255, 255, 255, 0.6) !important;
+  --mat-stepper-header-icon-background-color: rgba(0, 0, 0, 0.54) !important;
+  --mat-stepper-header-icon-foreground-color: whitesmoke !important;
+  --mat-stepper-header-selected-state-icon-background-color: #86609B;
+  --mat-stepper-header-selected-state-icon-foreground-color: white;
+  --mat-stepper-header-edit-state-icon-background-color: #86609B;
   --mat-stepper-header-error-state-icon-foreground-color: #f44336 !important;
   --mat-stepper-header-error-state-icon-background-color: transparent !important;
 
@@ -521,4 +526,9 @@ html {
 /* Progress spinner */
 html {
   --mat-progress-spinner-active-indicator-color: #86609B;
+}
+/*Expandable table rows hover and select*/
+html {
+  --table-row-hover-background: rgba(255, 255, 255, 0.06) !important;
+  --table-row-active-background: rgba(255, 255, 255, 0.1) !important;
 }

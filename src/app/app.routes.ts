@@ -25,6 +25,14 @@ import { SelectComponent } from './pages/select/select.component';
 import { ProgressspinnerComponent } from './pages/progress-spinner/progress-spinner.component';
 import { SidenavComponent } from './pages/sidenav/sidenav.component';
 import { SliderComponent } from './pages/slider/slider.component';
+import { SnackbarComponent } from './pages/snackbar/snackbar.component';
+import { TableComponent } from './pages/table/table.component';
+import { TableexpandableComponent } from './pages/table-expandable/table-expandable.component';
+import { StepperComponent } from './pages/stepper/stepper.component';
+import { TabsComponent } from './pages/tabs/tabs.component';
+import { TimepickerComponent } from './pages/timepicker/timepicker.component';
+import { TooltipComponent } from './pages/tooltip/tooltip.component';
+import { TreeComponent } from './pages/tree/tree.component';
 
 export const routes: Routes = [
   { path: 'buttons', component: ButtonsComponent },
@@ -53,5 +61,13 @@ export const routes: Routes = [
   { path: 'select', component: SelectComponent },
   { path: 'sidenav', component: SidenavComponent },
   { path: 'slider', component: SliderComponent },
+  { path: 'snackbar', component: SnackbarComponent },
+  { path: 'table', component: TableComponent },
+  { path: 'table-expandable', component: TableexpandableComponent },
+  { path: 'stepper', component: StepperComponent },
+  { path: 'tabs', component: TabsComponent },
+  { path: 'timepicker', component: TimepickerComponent },
+  { path: 'tooltip', component: TooltipComponent },
+  { path: 'tree', component: TreeComponent },
   { path: '', redirectTo: 'buttons', pathMatch: 'full' }, 
 ];
